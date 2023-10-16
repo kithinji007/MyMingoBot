@@ -20,7 +20,7 @@ Mingobot was created to enhance the accessibility of information about Moringa S
 5. [Features](#Features)
 6. [Mingobot Flowchart](#Mingobot-Flowchart)
 7. [Model Evaluation](#Model-Evaluation)
-8. [Conclusion and Recommendation](#Conclusion-and-Recommendation)
+8. [Conclusion](#Conclusion)
 
 # Installation
 
