@@ -1,0 +1,156 @@
+version: "3.1"
+
+stories:
+
+- story: say Hi
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: say Bye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+- story: user challenges the bot
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+
+- story: ask about application
+  steps:
+  - intent: faq_application
+  - action: utter_faq_application
+
+- story: ask about course content
+  steps:
+  - intent: faq_course_content
+  - action: utter_faq_course_content
+
+- story: ask about financial aid
+  steps:
+  - intent: faq_financial_aid
+  - action: utter_faq_financial_aid
+
+- story: ask about learning mode and duration
+  steps:
+  - intent: faq_learning_mode_duration
+  - action: utter_faq_learning_mode_duration
+
+
+# - story: ask about duration of course
+#   steps:
+#   - intent: faq_duration
+#   - action: utter_faq_duration
+
+- story: ask about course preriquisites
+  steps:
+  - intent: faq_course_preriquisites
+  - action: utter_faq_course_preriquisites
+
+- story: ask about hardware requiremnt
+  steps:
+  - intent: faq_hardware_requirement
+  - action: utter_faq_hardware_requirement
+
+- story: ask about cost
+  steps:
+  - intent: faq_cost
+  - action: utter_faq_cost
+
+- story: deferment
+  steps:
+  - intent: faq_deferment
+  - action: utter_faq_deferment
+
+# - story: ask about payment
+#   steps:
+#   - intent: faq_payment
+#   - action: utter_faq_payment
+
+
+- story: ask about Moringa
+  steps:
+  - intent: faq_Moringa
+  - action: utter_faq_Moringa
+
+
+- story: ask about timelines for admission
+  steps:
+  - intent: faq_admission_timelines
+  - action: utter_faq_admission_timelines
+
+
+- story: ask about accomodation
+  steps:
+  - intent: faq_accomodation
+  - action: utter_faq_accomodation
+
+
+- story: ask about location
+  steps:
+  - intent: faq_location
+  - action: utter_faq_location
+
+
+- story: ask about capstone
+  steps:
+  - intent: faq_capstone_project
+  - action: utter_faq_capstone_project
+
+
+- story: ask about careers
+  steps:
+  - intent: faq_career_opportunities
+  - action: utter_faq_career_opportunities
+
+- story: completion cetificate
+  steps:
+  - intent: faq_certificate
+  - action: utter_faq_certificate
+
+
+- story: DS ni nini
+  steps:
+  - intent: faq_data_science
+  - action: utter_faq_data_science
+
+
+- story: contact_us
+  steps:
+  - intent: faq_contact_us
+  - action: utter_faq_contact_us
+
+
+
+- story: user asks out of scope question
+  steps:
+  - intent: outofscope
+  - action: utter_outofscope
+
+
+- story: Non-DS Course INquiry
+  steps:
+  - intent: inform_non_data_science
+  - action: utter_non_data_science_courses
+
+
+- story: User expresses gratitude
+  steps:
+  - intent: affirm_gratitude
+  - action: utter_gratitude_response
+
+
+- story: User asks about language capabilities
+  steps:
+  - intent: language_inquiry
+  - action: utter_language_inquiry
+
+
+
+- story: Save User Input
+  # steps:
+  #   - intent: greet
+  #   - action: action_save_user_input
+

@@ -1,0 +1,156 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+
+  - faq_application
+  - faq_course_content
+  - faq_financial_aid
+  - faq_learning_mode_duration
+  - faq_course_preriquisites
+  - faq_hardware_requirement
+  - faq_cost
+  - faq_deferment
+  
+  - faq_Moringa
+  - faq_admission_timelines
+  - faq_accomodation
+  - faq_location
+  - faq_capstone_project
+  - faq_career_opportunities
+
+  - faq_data_science
+  - faq_certificate
+  - faq_contact_us
+
+  - outofscope
+
+  - inform_non_data_science
+  - affirm_gratitude
+  - language_inquiry
+  - ask_gpt
+  - ask_gpt_for_details
+
+
+responses:
+  utter_greet:
+  - text: "Hey There🤗,I am Mingobot, Moringa's conversational AI.\nI am here to answer all your questions relating to: Admission, Financial aid, Fee Payment Options and Learning modes(Part-time, Hybrid and full time)\n\nHow can I assist you today?\nI am smart enough to understand your questions so just ask ahead"
+
+  utter_goodbye:
+  - text:  "Thank you for contacting Moringa, I hope I was able to assist you today.🤗\nFeel free to return if you have more questions. GoodBye!\n\nPlease take a moment to fill in the below feedback form. I will really appreciate. [Feedback Link](https://forms.gle/SukVfzSgcqC6fZDH7)"
+
+  utter_bot_challenge:
+  - text: "I am a bot owned and trained by Mingobots.😊 Here to help you on anything pertaining Moringa's Data Science course.😎\n\n I am still under-development and I have limitations and won’t always get it right, but your feedback will help me improve."
+
+  utter_faq_application:
+  - text: "We would be delighted to assist you with your application. To get started please visit our website and fill out the online application form.\n[Full Time Data Science](https://moringaschool.com/courses/data-science-course/)\n[Hybrid](https://moringaschool.com/courses/data-science-full-time-hybrid/)\n[Part Time](https://moringaschool.com/courses/data-science-course-part-time/)\nIf you have any questions or need help along the way,do not hesitate to reach out. We are here to support you on your journey to joining Moringa"
+
+  utter_faq_course_content:
+  - text: "In our data science program, you will find a rich and diverse curriculum that covers a wide range of topics essential to becoming a proficient data scientist.\nThe program typically comprises multiple modules, each focusing on specific aspects of data science.\nYou will delve into data analysis techniques, programming languages like Python and database managemnt systems like SQL, machine learning algorithms, statistical methods, and data visualization tools.\nStudents are also exposed to database systems, big data technologies, and natural language processing. The Data Science course has six phases, which is a mix of lectures, labs, and assignments to provide a well-rounded learning experience. Please follow the link to view our detailed [brochure](https://moringaschool.com/wp-content/uploads/2021/08/Data-science-WEB.pdf)"
+
+  utter_faq_financial_aid:
+  - text: "Moringa strives to make Quality Education Accessible to All through financial and academic support. It has partnered with Mastercard Foundation to bring to you the Access Program. The Access Program is a scholarship program for youth from low-income backgrounds. Apply [here](https://moringaschool.com/financial-aid/)\n\nMoringa has partnered with Aspira to make tuition fee access easier for you. Students and alumni of Moringa can now apply for a low-interest-based loan with zero application fees to finance their tuition fees.\nMore information on Soma Student loan, follow this [link](https://moringaschool.com/soma-student-loan/)"
+
+  utter_faq_learning_mode_duration:
+  - text: "Moringa school offers flexible learning modes, which include:\nData Science Full-time Hybrid: In-person & Online | Mon to Fri from 8am to 5pm (25 weeks).\nData Science Part-time: Live & Online | Mon to Fri from 6pm to 9pm | Saturdays from 9am to 6pm (35 weeks).\n\nThe course is categorized into 6 Phases which entail:\nPhase 0: Orientation, Pre Work and Introduction to Data Science Principles\nPhase 1: Data Analysis & Engineering\nPhase 2: Scientific Computing & Quantitative Methods\nPhase 3: Machine Learning Fundamentals\nPhase 4: Advanced Machine Learning\nPhase 5: Final Data Science Projects.\n\nFor more information, please visit the following links:\n[Data Science Course](https://moringaschool.com/courses/data-science-course/)\n[Data Science Full-time Hybrid](https://moringaschool.com/courses/data-science-full-time-hybrid/)\n[Data Science Part-time](https://moringaschool.com/courses/data-science-course-part-time/)\n\nA phase is a distinct stage or period within the Moringa School educational program. Each phase has a specific topic and learning objectives to be accomplished during the phase as they are time bound . At the end of each phase there is a Project that assesses the Learner's understanding of what was covered in the Phase ."
+
+  utter_faq_course_preriquisites:
+  - text: |
+      "For you to join Moringa school's data science program you have to meet the following conditions:
+        - Be 18 years and above and provide proof of ID/Passport.
+        - Basic understanding of math and statistics concepts .
+        - Have a university/college education (ongoing students or graduates are more likely to join).
+        - All applicants are required to complete the application process by taking a technical assessment test and pass.
+        - Have a laptop with the following specs (core i5 upwards, 8GB RAM, 500GB upwards of storage).
+        - Have stable internet access.
+        - Have gone through high school as is required by law (TVET) and should be computer proficient
+        - All applicants are required to complete a technical assessment test and pass
+        Please follow the link below for more details on the Data Science Course prerequisites:
+        [Data Science Course Prerequisites](https://moringaschool.com/courses/data-science-course/)"
+
+  utter_faq_hardware_requirement:
+  - text: "For hardware requirements, a laptop in good condition is required with the following specs:\ncore i5 upwards, 8GB RAM, 500GB upwards of storage.\nFor successful undertaking of the studies, a laptop is required with the following specs: core i5 upwards, 8GB RAM, 500GB upwards of storage. At this time, Moringa is not offering laptops as part of the course"
+
+  utter_faq_cost:
+  - text: "Data Science Fulltime costs-Ksh.174,000 and the Data Science Part time course costs- Ksh.200,000. \nInstallment options are available, whereby you can pay upto a maximum of 4 equal installments, with a minimum deposit of 10% of the total cost required for booking.\nFor more details, contact our admission team via the number - 020 7643 533\n\nWe have two modes of fee payment\nOption 1:Mpesa\nPaybill - Business Number: 556459\nAccount: Student Name+Class\ne.g John Doe DSF-PT3\n\nOption2: Bank details\nBank: I&M\nBranch: Karen\nAcc name:MORINGA SCHOOL LIMITED\nAcc no: 00801051711810"
+
+  utter_outofscope:
+  - text: "Mind asking your question again, the devs just made me smarter😉\nI only answer questions on Data Science. That is my scope🙂"
+
+  utter_faq_deferment:
+  - text: "Deferment is a temporary pause on your fee payments, and may be available on a case-by-case basis for students who are unable to continue their studies due to financial hardship, medical reasons, or other extenuating circumstances. It is available to students on a case-by-case basis, and there may be cost implications.\nTo request a deferment,please contact Moringa administrator through 020 764 3533."
+
+
+  utter_faq_admission_timelines:
+  - text: "Our admission timelines vary with the cohort. For further details visit our [website](https://moringaschool.com/apply/data-science-part-time/) to apply.\n You can also contact our admissions office on 0712293878/0741493565 or email admissions@moringaschool.com"
+
+  utter_faq_location:
+  - text: "Moringa School Physical address is Ngong Lane, Ngong Lane Plaza, 1st Floor, Nairobi Kenya. At the moment, our offices are only in Nairobi. Moringa is easily accesible using google maps using this [pin](https://www.google.com/maps/dir/-1.3075872,36.9026305/moringa+school/@-1.3119325,36.7613703,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x182f1a6bf7445dc1:0x940b62a3c8efde4c!2m2!1d36.7846067!2d-1.3004862?entry=ttu)."
+
+
+  utter_faq_accomodation:
+  - text: "Moringa School does not offer accommodation.Student hostels & houses for rent are available within the environs, based on one's preference."
+
+  utter_faq_capstone_project:
+  - text: "In the final Phase of learning (Phase 5), learners will carry out the Capstone project as the final project. Learners work individually or in groups to apply the technical and soft skills training and knowledge.\nStudents are required to create a large-scale data science and/or machine learning project.\nThis final project provides an in-depth opportunity for you to demonstrate your learning accomplishments."
+
+  utter_faq_career_opportunities:
+  - text: "Career opportunities range from data analyst positions to specialized roles like machine learning engineer or even managerial positions.\nData scientist salaries are competitive, varying by experience and location, but with tech hubs and major companies leading the way in hiring."
+
+  utter_faq_Moringa:
+  - text : |
+       "Moringa School is a multi-disciplinary learning-accelerator committed to closing the skills-gap 
+       in Africa’s job markets by delivering transformative tech-based learning to high-potential
+       jobseekers; and on graduation connecting them to local and international employers who desire high-quality tech talent.
+       Our mission is To build talent and opportunities through transformative tech-based learning experiences.
+       Our vision is A world in which anyone can create their future"
+
+
+  utter_faq_data_science:
+  - text: "Data Science (DS) is a multidisciplinary field focused on extracting insights from data, with applications in various industries. It combines statistics and computational techniques, utilizes AI and machine learning, and involves data mining. DS impacts business optimization, handles big data, and prioritizes ethical considerations. It has historical roots in statistics and computer science and is driven by the digital data explosion. DS aims to provide actionable insights, and data science projects vary widely, showcasing its versatility and real-world relevance."
+
+
+  utter_faq_certificate:
+  - text: "Yes, you will receive a TVET accredited certificate upon successful completeion of the program. The certificates are ready 2 weeks after your graduation.\nFeel free to post your accomplishment on LinkedIn or a platform of your choice as you never know which recruiter is watching.\nNote however the certificate is issue once, so take care of it."
+
+  utter_faq_contact_us:
+  - text: |
+        "Please find our contact details below, for more information: 
+        General Inquiries: 020 500 2167 
+        Contact@mornigaschool.com 
+        Corporate Inquiries: +254 738 368 319 
+        Corporate@moringaschool.com 
+        Admissions Inquiries: 020 7643 533 
+        Admissions@moringaschool.com
+        WhatsApp Inquiries: +254 712 293 878 
+        Facebook | LinkedIn | Twitter | YouTube @moringaschool
+        Website: www.moringaschool.com
+        We are open from 8:00 a.m to 5:00 p.m Weekdays"
+
+
+  utter_language_inquiry:
+    - text: "I primarily understand English, and I'm in the process of learning and understanding Kiswahili.🙃"
+
+  utter_non_data_science_courses:
+    - text: "While my primary focus is on data science, we also offer courses in other fields such as web development, machine learning, and AI. How can I assist you further?"
+
+  utter_gratitude_response:
+    - text: "You're much welcome. Were you pleased with my answers?\nIf you don't mind you can fill in this feedback form and I will appreciate. It helps in my development and making me be better.[Link](https://forms.gle/SukVfzSgcqC6fZDH7)"
+
+
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
+
+actions:
+  - action_save_user_input
+  - action_ask_gpt
+  - action_ask_gpt_for_details
