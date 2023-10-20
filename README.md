@@ -141,22 +141,6 @@ Mingobot's features are designed to make the process of gathering information ab
 
 <img width="1280" alt="chart1" src="https://github.com/kithinji007/MingoBot/assets/122665283/9c31525c-0ba0-40e6-acbe-c6eaf9ed3521">
 
-## How does Mingobot Work ?
-<img width="1280" alt="chart2" src="https://github.com/kithinji007/MingoBot/assets/122665283/94de6fa6-c9b0-4b0a-a526-eef48bbdcb52">
-
-**1.Students Interact with Mingo on Telegram:** Students initiate conversations with the chatbot by sending messages on the Telegram platform. They can ask questions or make inquiries about the data science program.
-
-**2.NGROK Connects Telegram to Local Server:** NGROK acts as a secure tunnel that establishes a connection between Telegram's platform and our local server. This enables seamless communication between the Telegram interface and the chatbot.
-
-**3. Local Server Connects to RASA:** The local server serves as an intermediary between NGROK and the RASA framework. It receives incoming messages from Telegram, then forwards them to RASA for processing.
-
-**4. RASA (Breaks Down the Interaction Identifying the Intent and Chooses the Appropriate Response:)** RASA, equipped with Natural Language Understanding (NLU) capabilities, analyzes the incoming message to understand the user's intent. 
-It identifies the purpose behind the query and determines the most suitable course of action or response.
-
-**5. Back to MingoBot** After processing the user's message, RASA formulates a tailored response based on the identified intent. This response is then sent back to the user through the Telegram platform, providing them with the information or assistance they requested.
-
-This flow ensures a smooth and effective interaction between students and the MingoBot, allowing them to obtain the information they need about the data science program in a user-friendly manner.
-
 # Model Evaluation
 
 To give you a visual representation of Mingobot in action, here are some video demos and screenshot of how the chatbot works:
